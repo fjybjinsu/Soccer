@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=./style/style.css></style>
+    <script defer src="./js/lineup.js"></script>
+    <title>라인업</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+          <i class="fas fa-blog"></i>
+          <a href="">K7 FCAGUILA</a>
+        </div>
+        <ul class="navbar__menu">
+          <li><a href="./index.html">사용자 가이드</a></li>
+          <li><a href="./details.html">선수 세부기록</a></li>
+          <li><a href="./hitmap.html">히트맵 분석</a></li>
+          <li><a href="./lineup.html">양팀 라인업</a></li>
+        </ul>
+    </nav>
+    <div class="team_btn_container">
+        <!-- <span id="date_place">
+            시간 : <input type="text" name="" id="">
+            장소 : <input type="text">
+        </span> -->
+        <button class="field_team_btn" id="btnOur">우리팀</button>
+        <button class="field_team_btn" id="btnYour">상대팀</button>
+    </div>
+    <span class="container_lineup">
+        <table>
+            <tr>
+                <th>이름</th>
+                <th>포지션</th>
+            </tr>
+            <tbody class="table">
+            </tbody>
+        </table>
+        <span class="container">
+            <div class="field_lineup"></div>
+        </span>
+        <table>
+            <tr>
+                <th>이름</th>
+                <th>포지션</th>
+            </tr>
+            <tbody class="table">
+            </tbody>
+        </table>
+    </span>
+</body>
+</html>

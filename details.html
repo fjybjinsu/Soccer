@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=./style/style.css></style>
+    <script defer src="./js/details.js"></script>
+    <title>선수 세부기록</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+          <i class="fas fa-blog"></i>
+          <a href="">K7 FCAGUILA</a>
+        </div>
+        <ul class="navbar__menu">
+          <li><a href="./index.html">사용자 가이드</a></li>
+          <li><a href="./details.html">선수 세부기록</a></li>
+          <li><a href="./hitmap.html">히트맵 분석</a></li>
+          <li><a href="./lineup.html">양팀 라인업</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <table id="details_table">
+            <tr id="details_tr">
+                <th>이름</th>
+                <th>터치</th>
+                <th>골</th>
+                <th>어시스터</th>
+                <th>찬스메이킹</th>
+                <th>슛(유효슛)</th>
+                <th>드리블(성공)</th>
+                <th>패스(성공)</th>
+                <th>롱패스(성공)</th>
+                <th>크로스(성공)</th>
+                <th>태클</th>
+                <th>인터셉트</th>
+                <th>경합(성공)</th>
+                <th>턴오버</th>
+                <th>삭제</th>
+            </tr>
+            <tbody class="table">
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <button onClick='appendRow()'>선수 정보 추가</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+:root {
+    --text-color: #f0f4f5;
+    --background-color: #263343;
+    --accent-color: orange;
+    --icons-color: rgb(152, 187, 201);
+    --bodybackground-color: lightgray;
+  }
+  
+  body { 
+    margin: 0;
+    /* background-color: var(--bodybackground-color); */
+    font-family: 'STIX Two Math';
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  table{
+    width : 100vw;
+    border : 2px solid;
+    text-align: center;
+  }
+
+  tr{
+    border-right:1px solid black;
+  }
+
+  th{
+    background-color: lightgreen;
+    border-bottom : 1px solid black;
+  }
+
+  td{
+    border-bottom : 1px solid black;
+    border-right : 1px solid black;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 8px 12px;
+    font-family: 'STIX Two Math';
+  }
+  
+  .navbar__logo i {
+    color: var(--accent-color);
+    padding-left: 0;
+  }
+  
+  .navbar__menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  .navbar__menu li {
+    padding: 8px 30px;
+  }
+
+  .navbar__menu li:hover {
+    background-color: var(--accent-color);
+    border-radius: 3px;
+  }
+  
+  .navbar__icons {
+    list-style: none;
+    display: flex;
+    color: var(--icons-color);
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  .navbar__icons li {
+    padding: 8px 12px;
+    margin: 0;
+  }
+
+  .field{
+    background-repeat: no-repeat;
+    background-image: url('../img/field.png');
+    width : 1660px;
+    height : 650px;
+    padding : auto;
+    margin : 20px auto ;
+    background-size: 100% 100%;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .field_lineup{
+    background-repeat: no-repeat;
+    background-image: url('../img/field.png');
+    background-size: 100% 100%;
+    width : 60vw;
+    height : 80vh;
+  }
+
+  .field_team_btn{
+    background-color:green;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    min-height:30px; 
+    min-width: 90px;
+    margin : 10px 0px 10px 10px;
+    padding : 10px;
+  }
+
+  .hit {
+    width : 40px;
+    height : 40px
+  }
+
+  #btnOur:hover {
+    background-color:blue;
+    transition: 0.7s;
+  }
+
+  #btnYour:hover {
+    background-color : red;
+    transition: 0.7s;
+  }
+
+  #date_place {
+    display: inline;
+  }
+
+  .container {
+    display : center;
+    justify-content : center;
+  }
+
+  .container_lineup{
+    display : flex;
+    justify-content: center;
+  }
+
+  .team_btn_container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .text_position{
+    position : absolute;
+    font-size : 15px;
+    font-weight: bold;
+    color : yellow;
+    z-index: 10;
+  }
