@@ -26,9 +26,9 @@ field.addEventListener('click',()=>{
 function addItem(team){
     let path ;
     if(team == "blue"){
-        path = "../img/blue.png";
+        path = "./img/blue.png";
     } else if (team=="red"){
-        path = "../img/red.png";
+        path = "./img/red.png";
     }
     const item = document.createElement('img');
     item.setAttribute('class', "hit");
